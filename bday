@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      background: #ffe9ec;
+      color: #3a2e39;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    .cake {
+      font-size: 4em;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.3em;
+      margin-bottom: 30px;
+    }
+    .confetti {
+      font-size: 2em;
+      color: #ffb347;
+    }
+    .button {
+      background: #ffb347;
+      color: #fff;
+      padding: 12px 32px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1.2em;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background 0.2s;
+    }
+    .button:hover {
+      background: #ff6f61;
+    }
+  </style>
+</head>
+<body>
+  <div class="cake">🎂</div>
+  <div class="confetti">✨🎉✨</div>
+  <h1>Happy Birthday!</h1>
+  <p>Wishing you a fantastic year ahead filled with joy, adventure, and success.<br>Enjoy your special day!</p>
+  <button class="button" onclick="alert('Make a wish! 🎈')">Make a Wish</button>
+</body>
+</html>
